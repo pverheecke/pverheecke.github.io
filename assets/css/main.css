@@ -2598,6 +2598,7 @@
 				flex-grow: 1;
 				-ms-flex: 1;
 				padding: 3.75em 3em 3.3em 3em;
+				width: 100%;
 			}
 
 				.simplebl > header .title h2 {
