@@ -2607,23 +2607,14 @@
 					text-align: center;
 				}
 
-				.simplebl > header .title > :last-child {
-					margin-bottom: 0;
-				}
-
-			.simplebl > header .subtitle {
-				-moz-flex-grow: 1;
-				-webkit-flex-grow: 1;
-				-ms-flex-grow: 1;
-				flex-grow: 1;
-				-ms-flex: 1;
-				padding: 3.75em 3em 3.3em 3em;
-				display: block;
-			}
-				.simplebl > header .subtitle h3 {
+				.simplebl > header .title h3 {
 					font-weight: 800;
 					font-size: 1.5em;
-					text-align: center;
+					text-align center;
+				}
+
+				.simplebl > header .title > :last-child {
+					margin-bottom: 0;
 				}
 
 		.simplebl .circlepic {
