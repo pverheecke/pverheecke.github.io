@@ -2598,7 +2598,7 @@
 				flex-grow: 1;
 				-ms-flex: 1;
 				padding: 3.75em 3em 3.3em 3em;
-				width: 100%;
+				display: block;
 			}
 
 				.simplebl > header .title h2 {
@@ -2618,6 +2618,7 @@
 				flex-grow: 1;
 				-ms-flex: 1;
 				padding: 3.75em 3em 3.3em 3em;
+				display: block;
 			}
 				.simplebl > header .subtitle h3 {
 					font-weight: 800;
