@@ -3508,3 +3508,22 @@
 			}
 
 		}
+
+/* Contact Form */
+
+	#contact_form {
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+		#contact_form label {
+			text-align: right;
+			float: left;
+			width: 50%;
+			padding-right: 1em;
+		}
+
+		#contact_form input {
+		}
+
