@@ -6,14 +6,17 @@ subtitle: Have a job opportunity? Want to collaborate? Fill out the form below!
 circlepic: /images/me.jpg
 ---
 <div id="contact_form">
-	<form action="" method="POST" name="contact">
-		<div class="form_row">
-			<label for="name">Your name:  </label>
-			<input id="name" />
-		</div>
-		<div class="form_row">
-			<label for="email">Your email:  </label>
-			<input id="email" />
-		</div>
+	<form action="" method="post">
+			<label for="name">Your name</label>
+			<input type="text" name="name" />
+
+			<label for="email">Your email</label>
+			<input type="text" name="email" />
+
+			<label for="message">Your message</label>
+			<textarea name="message"></textarea>
+
+			<input type="submit">
+
 	</form>
 </div>
