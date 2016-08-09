@@ -3512,24 +3512,28 @@
 /* Contact Form */
 
 	#contact_form {
-		width: 50%;
-		margin: 0 auto;
-		text-align: center;
+		width: 100%;
 	}
 
-		#contact_form label {
-			text-align: left;
-			margin-bottom: -0.2em;
+		#contact_form .form_row {
+			max-width: 25em;
+			margin: 0 auto;
 		}
 
-		#contact_form input {
-			width: 100%;
-			margin-bottom: 1em;
-		}
+			#contact_form .form_row label {
+				text-align: left;
+				width: 100%;
+				margin-bottom: -0.2em;
+			}
 
-		#contact_form textarea {
-			max-width: 100%;
-			height: auto;
-			margin-bottom: 1em;
-		}
+			#contact_form .form_row input {
+				width: 100%;
+				margin-bottom: 1em;
+			}
+
+			#contact_form .form_row textarea {
+				width: 100%;
+				height: auto;
+				margin-bottom: 1em;
+			}
 
