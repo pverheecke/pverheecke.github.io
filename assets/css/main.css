@@ -2627,6 +2627,11 @@
 			width: 9em;
 			height: 9em;
 		}
+
+			.simplebl .circlepic .piclink {
+				border: none;
+			}
+
 			.simplebl .circlepic img {
 				width: 100%;
 				height: auto;
@@ -3511,29 +3516,18 @@
 
 /* Contact Form */
 
-	#contact_form {
-		width: 100%;
-	}
-
 		#contact_form .form_row {
 			max-width: 25em;
-			margin: 0 auto;
+			margin: 0 auto 1.5em auto;
 		}
 
 			#contact_form .form_row label {
 				text-align: left;
-				width: 100%;
 				margin-bottom: -0.2em;
 			}
 
-			#contact_form .form_row input {
-				width: 100%;
-				margin-bottom: 1em;
-			}
-
 			#contact_form .form_row textarea {
-				width: 100%;
 				height: auto;
-				margin-bottom: 1em;
+				max-width: 25em;
 			}
 

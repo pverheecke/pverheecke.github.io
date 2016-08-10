@@ -2,22 +2,30 @@
 layout: default
 title: Contact Me
 pagetitle: Contact Me
-subtitle: Have a job opportunity? Want to collaborate? Fill out the form below!
+subtitle: Want to work with me? Fill out the form below!
 circlepic: /images/me.jpg
 ---
 <div id="contact_form">
-	<form action="" method="post">
+	<form action="https://formspree.io/peter@verheecke.net" method="POST">
 		<div class="form_row">
-			<label for="name">Your name</label>
-			<input type="text" name="name" />
+			<label>Your name
+				<input type="text" name="name" />
+			</label>
 		</div>
 		<div class="form_row">
-			<label for="email">Your email</label>
-			<input type="text" name="email" />
+			<label>Your email
+				<input type="text" name="email" required />
+			</label>
 		</div>
 		<div class="form_row">
-			<label for="message">Your message</label>
-			<textarea name="message"></textarea>
+			<label>Subject
+				<input type="text" name="_subject" required />
+			</label>
+		</div>
+		<div class="form_row">
+			<label>Message
+				<textarea name="message" required></textarea>
+			</label>
 		</div>
 		<div class="form_row">
 			<input type="submit">
